@@ -1,8 +1,13 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   root 'static_pages#home'
 
-  get 'static_pages/help'
-  get 'static_pages/about'
+  get 'help' => 'static_pages#help'
+  get 'about'   => 'static_pages#about'
+  get 'contact' => 'static_pages#contact'
+  get 'login' => 'static_pages#login'
+  get 'signup'  => 'users#new'
 
   resources :microposts
   resources :users
