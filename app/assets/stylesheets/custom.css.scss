@@ -149,6 +149,22 @@ input {
   }
 }
 
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 25px;
+    font-weight: normal;
+    align: bottom;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+  //align: top
+}
+
 //разное
 .debug_dump {
   clear: both;

@@ -1,0 +1,2 @@
+      invoke  active_record
+   identical    db/migrate/20170531101704_add_remember_digest_to_users.rb
